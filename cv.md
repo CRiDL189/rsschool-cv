@@ -1,5 +1,4 @@
 # Eduard Hovar
-
 ## Junior Developer Resume
 ![](https://sun9-19.userapi.com/c630425/v630425615/4e289/TzdJD8oOnh0.jpg)
 Let me introduce myself.
