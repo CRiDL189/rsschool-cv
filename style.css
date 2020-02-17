@@ -1,0 +1,138 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 1.6rem;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+
+    background-color: rgb(102, 17, 36, 0.877);
+}
+.header__info {
+    padding: 15px 0;
+}
+
+.header__info-title {
+    margin-bottom: 15px;
+
+    font-size: 4rem;
+    color: rgb(211, 183, 28);
+    text-transform: uppercase;
+}
+
+.header__contacts-item {
+    margin-bottom: 15px;
+}
+
+.header__contacts-title {
+    margin-bottom: 15px;
+
+    font-size: 3rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.header__contacts-text {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+
+    transition: text-decoration .2s linear;
+}
+
+
+.header__contacts-text:hover {
+    text-decoration: underline;
+}
+
+.main {
+    padding: 30px 30px 15px 30px;
+
+    background-color: rgb(46, 45, 45);
+}
+
+.resume__item {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+
+    border-bottom: 2px dotted rgb(214, 178, 18);
+}
+.resume__item-title {
+    margin-bottom: 20px;
+
+    font-size: 3rem;
+    color: gray;
+    text-transform: uppercase;
+}
+
+.resume__item-text {
+    font-size: 2rem;
+    color: white;
+}
+
+.resume__item-link {
+    font-size: 2rem;
+    color: gray;
+    text-decoration: none;
+
+    transition: color .2s linear;
+}
+
+.resume__item-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+.resume__item-list {
+    margin-bottom: 15px;
+
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+
+    background-color: rgba(102, 17, 36, 0.877);
+}
+.footer__link {
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+
+    transition: color .2s linear;
+}
+.footer__link:hover {
+    color: rgb(214, 178, 18);
+    text-decoration: underline;
+}
